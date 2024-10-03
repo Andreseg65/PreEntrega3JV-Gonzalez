@@ -27,7 +27,7 @@ function mostrarMensaje(mensaje, tipo) {
     mensajeDiv.className = tipo; // Asigno la clase en función del tipo de mensaje (success o error)
     mensajeDiv.style.display = "block";
 
-    // Oculto el mensaje después de 3 segundos
+    // Oculto el mensaje después de 3 segundos. Se que me adelante con esta función pero me gustó y quise usarla.
     setTimeout(() => {
         mensajeDiv.style.display = "none";
     }, 3000);
